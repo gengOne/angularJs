@@ -6,7 +6,7 @@ import gengCtrl from './geng.controller';
 export default angular.module('app',[
     'ionic',
     'oc.lazyLoad',
-    
+    'ngCordova'
 ])
 .run(launch)
 .config(appConfig)
